@@ -32,3 +32,4 @@ Em tabuleiros maiores ($8 \times 8$ ou $10 \times 10$), o jogador pode ativar o 
 
 ### 2.3 Modo "Caixa de Papelão" (Cardboard Obstacle)
 Obstáculos estáticos colocados estrategicamente pelo gerador onde gatos não podem entrar, forçando bifurcações interessantes de resolução lógica no CLP(FD).
+

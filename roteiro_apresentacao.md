@@ -1,45 +1,45 @@
 # Roteiro da Apresentação Oral (15 Minutos)
 
-**Regra Geral da Avaliação:** Todos os 7 integrantes devem falar ativamente durante a apresentação. O grupo será cronometrado rigorosamente.
+Critério do edital: todos os integrantes devem falar durante os 15 minutos e estar aptos a responder perguntas técnicas sobre o trecho de código atribuído a eles no relatório.
 
 ---
 
-## ⏱️ Distribuição de Tempo
+## Distribuição do Tempo
 
-### Minutos 0 a 3: Introdução e Demonstração do Jogo
-* **Quem fala:** Membro 6 (UI/UX) e Membro 7 (QA/Relatório).
-* **O que mostrar:**
-  * Apresentar o tema felino do Meowdoku e as regras de não-adjacência.
-  * Jogar ao vivo: clicar para marcar X em casas proibidas, colocar gatos nas casas certas.
-  * Demonstrar o feedback instantâneo de conflito em vermelho quando dois gatos se tocam.
-  * Clicar no botão "Dica Inteligente" e mostrar o pop-up com a dedução em texto.
+### 0 a 3 min: Demonstração Prática do Sistema
+- Responsáveis: Membro 6 (UI/UX) e Membro 7 (QA/Relatório).
+- Roteiro:
+  - Contextualizar o problema e as regras de não-adjacência.
+  - Interagir com a grade: marcar posições proibidas com "X" e posicionar gatos.
+  - Mostrar a detecção instantânea de conflitos em vermelho no frontend.
+  - Solicitar uma dica e exibir na tela a justificativa dedutiva gerada pelo motor em Prolog.
 
-### Minutos 3 a 7: Aprofundamento no Paradigma Lógico (Prolog)
-* **Quem fala:** Membro 1 (Restrições) e Membro 2 (Dicas/Unicidade).
-* **O que mostrar no código:**
-  * Abrir `backend/prolog/meowdoku.pl`.
-  * Mostrar como a biblioteca `clpfd` define o domínio binário `0..1`.
-  * Explicar a restrição de não-adjacência $A + B \le 1$.
-  * Explicar como a dica dedutiva identifica a regra violada.
-  * Executar os testes unitários ao vivo:
+### 3 a 7 min: Paradigma Lógico (SWI-Prolog)
+- Responsáveis: Membro 1 (Restrições) e Membro 2 (Dicas e Unicidade).
+- Roteiro no código:
+  - Exibir `backend/prolog/meowdoku.pl`.
+  - Explicar a formulação em CLP(FD): domínio binário 0..1, restrições de linha, coluna e região.
+  - Destacar o tratamento de vizinhança de Chebyshev (inequação $A + B \le 1$).
+  - Explicar como a dica deriva a restrição violada em vez de apenas buscar o gabarito.
+  - Rodar os testes automatizados em terminal:
     ```sh
     swipl -g run_tests -t halt backend/prolog/test_meowdoku.pl
     ```
 
-### Minutos 7 a 11: Aprofundamento no Paradigma Funcional (Elm)
-* **Quem fala:** Membro 4 (Domínio) e Membro 5 (API/HTTP).
-* **O que mostrar no código:**
-  * Abrir `frontend/src/Meowdoku.elm`.
-  * Mostrar os Custom Types (`CellMark = Empty | MarkedX | HasCat`) destacando como eles impedem estados inválidos.
-  * Mostrar a função pura `checkConflicts : Board -> Board`.
-  * Abrir `frontend/src/Api.elm` e mostrar a composição de decodificadores JSON com `Decode.map4`.
+### 7 a 11 min: Paradigma Funcional (Elm)
+- Responsáveis: Membro 4 (Domínio) e Membro 5 (API/HTTP).
+- Roteiro no código:
+  - Exibir `frontend/src/Meowdoku.elm`.
+  - Apresentar a modelagem por tipos algébricos (`type CellMark = Empty | MarkedX | HasCat`), mostrando por que ela impede estados inconsistentes.
+  - Demonstrar a função pura `checkConflicts : Board -> Board`.
+  - Exibir `frontend/src/Api.elm` e a decodificação tipada de JSON com `Json.Decode`.
 
-### Minutos 11 a 13: Arquitetura de Integração (Python/Janus)
-* **Quem fala:** Membro 3 (Ponte Python).
-* **O que mostrar:**
-  * Abrir `backend/app/meowdoku_prolog.py` e `backend/app/main.py`.
-  * Mostrar a chamada `janus.query_once` conectando a rota FastAPI diretamente ao interpretador Prolog embutido.
-  * Destacar que o Python atua exclusivamente como ponte serializadora (< 20% do código).
+### 11 a 13 min: Arquitetura de Integração (Python/Janus)
+- Responsável: Membro 3 (Ponte Python).
+- Roteiro no código:
+  - Exibir `backend/app/meowdoku_prolog.py` e `backend/app/main.py`.
+  - Demonstrar como o `janus` executa o arquivo Prolog diretamente na memória do processo Python.
+  - Evidenciar a contagem de linhas para demonstrar que o Python não concentra lógica de domínio e respeita o teto de 20%.
 
-### Minutos 13 a 15: Arguição Individual e Perguntas da Banca
-* **Quem fala:** Todos os membros respondem às perguntas do professor sobre suas respectivas partes.
+### 13 a 15 min: Arguição Individual
+- Todos os integrantes disponíveis para responder diretamente às perguntas do professor sobre suas contribuições declaradas na Seção 10.

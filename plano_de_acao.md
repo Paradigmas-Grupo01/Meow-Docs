@@ -46,3 +46,4 @@ flowchart TD
 * [ ] Preencher as Seções 1 a 13 do `RELATORIO.md` de acordo com a contribuição real de cada membro.
 * [ ] Cada integrante preenche sua avaliação individual em `avaliacao-360/<matricula>.md`.
 * [ ] Ensaio cronometrado da apresentação de 15 minutos.
+

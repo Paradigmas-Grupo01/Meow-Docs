@@ -51,3 +51,4 @@ O frontend adota a Arquitetura Elm (The Elm Architecture - TEA):
 * **Arquivos:** `backend/app/meowdoku_prolog.py` e `backend/app/main.py`
 * **Papel:** Embutir o runtime do SWI-Prolog via biblioteca oficial `janus-swi` e expor rotas REST documentadas via OpenAPI/Swagger (`/docs`).
 * **Diretriz de Avaliação:** Manter menos de 20% das linhas do repositório em Python, garantindo que toda a inteligência permaneça no Prolog e no Elm.
+

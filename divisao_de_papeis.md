@@ -15,3 +15,4 @@ Esta matriz foi elaborada para atender rigorosamente à **Seção 10 do `RELATOR
 | **Membro 5** | *Engenheiro de API & HTTP Elm* | `frontend/src/Api.elm`<br>`frontend/src/Main.elm` (update) | Mapeamento JSON (`meowdokuPuzzleDecoder`, `meowdokuHintDecoder`), ciclo de comandos assíncronos (`Cmd Msg`) e tratamento de erros. |
 | **Membro 6** | *Designer de UI/UX & Interações* | `frontend/src/Main.elm` (view)<br>`frontend/src/style.css` | Layout em CSS Grid/SVG, estilização de regiões com paleta pastel, sprites dos gatos, contador de gatos e modal comemorativo. |
 | **Membro 7** | *QA, Validação e Relatório* | `RELATORIO.md`<br>`scripts/validar_entrega.py`<br>`frontend/tests/` | Validação formal do relatório (`validar_entrega.py` com zero erros), testes de integração e redação da Seção 13 (reflexão dos paradigmas). |
+

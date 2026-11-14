@@ -1,35 +1,29 @@
-# Meow-Docs: Documentação Central do Meowdoku 🐱
-**Repositório de Código:** [meow-Game](https://github.com/Paradigmas-Grupo01/meow-Game)  
-**Organização:** [Paradigmas-Grupo01](https://github.com/Paradigmas-Grupo01)  
-**Disciplina:** Paradigmas de Programação — Engenharia de Software (UnB/FGA)  
-**Professor:** Fábio Macêdo Mendes  
-**Semestre:** 2026/2  
+# Meow-Docs: Documentação do Meowdoku
+
+Repositório de código: https://github.com/Paradigmas-Grupo01/meow-Game  
+Organização: Paradigmas-Grupo01  
+Disciplina: Paradigmas de Programação - FGA/UnB  
+Professor: Fábio Macêdo Mendes  
+Semestre: 2026/2  
 
 ---
 
-## 📌 Visão Geral
+## Visão Geral
 
-Este repositório centraliza toda a documentação de engenharia, planejamento, especificação matemática de restrições, divisão de responsabilidades e ensaios de apresentação para o projeto **Meowdoku**.
+Este repositório reúne a documentação de apoio do projeto Meowdoku, desenvolvido para a avaliação final da disciplina de Paradigmas de Programação.
 
-O Meowdoku é um jogo de raciocínio lógico em grade inspirado nas mecânicas de *Star Battle* / *LinkedIn Queens*, contextualizado no universo felino. O sistema integra dois paradigmas fundamentais:
-- **Paradigma Lógico (SWI-Prolog com CLP/FD):** Modelagem de restrições de tabuleiro, não-adjacência felina, busca, geração com solução única e motor de dedução para dicas inteligentes.
-- **Paradigma Funcional (Elm 0.19):** Frontend web reativo (SPA) baseado na Arquitetura Elm (TEA), com modelagem rígida de tipos de domínio para eliminar estados inválidos e validação instantânea de conflitos.
-- **Ponte de Integração (Python FastAPI + Janus):** Camada mínima (<20% do código) que conecta a interface em Elm ao runtime em C do SWI-Prolog.
+O jogo baseia-se nas regras de Star Battle (e puzzles semelhantes, como Queens), adaptado para uma temática visual de gatos. A proposta do trabalho é exercitar na prática os dois paradigmas principais vistos no semestre:
 
----
-
-## 📚 Índice de Documentos
-
-1. [Plano de Ação e Cronograma](plano_de_acao.md): Roadmap detalhado das 4 sprints até a entrega final (Lote 1 em 18/11).
-2. [Regras do Jogo e Pontos de Originalidade](regras_do_jogo.md): Especificação das regras básicas, restrições de vizinhança de Chebyshev e mecânicas originais (*Smart Hint*, *Double Trouble* e *Cardboard Obstacle*).
-3. [Arquitetura do Sistema](arquitetura.md): Diagramas de fluxo de dados, contratos de API JSON/HTTP e modelagem dos módulos em Prolog e Elm.
-4. [Divisão de Papéis e Responsabilidades](divisao_de_papeis.md): Matriz de responsabilidades para os 7 integrantes do grupo (alinhada à Seção 10 do relatório oficial e avaliação 360°).
-5. [Roteiro da Apresentação Oral (15 Minutos)](roteiro_apresentacao.md): Minutagem detalhada da apresentação, guia de demonstração e perguntas esperadas da banca com respostas modelo.
+- Programação Lógica (SWI-Prolog): resolução por restrições usando CLP(FD), modelagem de vizinhança de Chebyshev para evitar adjacências entre gatos, verificação de unicidade de solução e geração de dicas explicativas.
+- Programação Funcional (Elm): interface web construída segundo The Elm Architecture (TEA), tipagem estática que previne estados inválidos e validação puramente funcional no frontend.
+- Camada de integração (Python / FastAPI): ponte mínima via janus apenas para conectar as chamadas HTTP do frontend ao interpretador SWI-Prolog, mantendo-se restrita a menos de 20% do código.
 
 ---
 
-## 🔗 Links Rápidos
+## Estrutura da Documentação
 
-* 🎮 **Código do Jogo:** [github.com/Paradigmas-Grupo01/meow-Game](https://github.com/Paradigmas-Grupo01/meow-Game)
-* 📖 **Template Oficial do Curso:** [fabiommendes/paradigmas-trabalho-final](https://github.com/fabiommendes/paradigmas-trabalho-final)
-* 📋 **Critérios de Avaliação:** Consulte o arquivo `AVALIACAO.md` no repositório de código.
+- [Plano de Ação e Cronograma](plano_de_acao.md): cronograma de desenvolvimento distribuído em etapas até a entrega do primeiro lote (18/11).
+- [Regras do Jogo e Originalidade](regras_do_jogo.md): definição formal das restrições e mecânicas adicionadas ao jogo.
+- [Arquitetura](arquitetura.md): fluxo de dados entre os componentes, endpoints da API e estrutura interna de módulos.
+- [Divisão de Tarefas](divisao_de_papeis.md): atribuição de responsabilidades para os 7 integrantes da equipe, em conformidade com a Seção 10 do relatório de entrega.
+- [Roteiro da Apresentação Oral](roteiro_apresentacao.md): divisão dos 15 minutos de banca entre os integrantes e pontos de atenção para as perguntas individuais.
