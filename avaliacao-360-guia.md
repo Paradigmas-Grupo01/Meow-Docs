@@ -37,3 +37,4 @@ $$I = \min(10, G \times F)$$
    ```sh
    python scripts/validar_entrega.py avaliacao-360/<sua-matricula>.md
    ```
+

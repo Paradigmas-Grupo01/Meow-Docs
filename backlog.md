@@ -580,3 +580,16 @@ Leitura: as setas indicam dependência. O solver (US-01) é a fundação de tudo
 | US-29 | Formatação de código | Pendente |
 | US-30 | RELATORIO.md | Template presente, conteudo pendente |
 | US-31 | Avaliação 360 | Template presente, preenchimento individual pendente |
+
+---
+
+## Histórico de Versões
+
+<p className="tabela-titulo">Tabela 5: Histórico de versões</p>
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 14/11/2026 | Elaboração inicial do backlog do produto e 31 histórias de usuário | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+
+<p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
+

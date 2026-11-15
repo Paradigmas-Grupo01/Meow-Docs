@@ -26,7 +26,7 @@ Este documento serve como histórico auditável do alinhamento do grupo. As atas
 ## Ata 01 - Alinhamento Inicial e Definição do Escopo (14/11/2026)
 - **Horário:** 05:00 às 05:30
 - **Local:** Discord
-- **Presentes:** Gabriel e integrantes do Grupo 01
+- **Presentes:** Gabriel
 - **Pauta da Reunião:**
   1. Escolha do tema do projeto final de Paradigmas de Programação.
   2. Definição da arquitetura e das linguagens cobradas (SWI-Prolog, Elm e FastAPI/Janus).
@@ -43,3 +43,17 @@ Este documento serve como histórico auditável do alinhamento do grupo. As atas
   - Membro 4 e 5: Estruturação dos decodificadores JSON e testes das regras puras em Elm.
   - Membro 6: Prototipação do CSS Grid e classes de cores para os territórios.
   - Membro 7: Leitura e configuração do validador `validar_entrega.py`.
+
+---
+
+## Histórico de Versões
+
+<p className="tabela-titulo">Tabela 4: Histórico de versões</p>
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 04/11/2026 | Registro da ata do Ponto de Controle 1 e acompanhamento das correções pedidas pela professora | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+| `1.1` | 14/11/2026 | Registro da Ata 01 (Alinhamento Inicial e Definição do Escopo) | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+
+<p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
+

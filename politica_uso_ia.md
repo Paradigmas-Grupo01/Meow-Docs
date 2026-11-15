@@ -23,3 +23,4 @@ Ao utilizar ferramentas de IA durante o desenvolvimento, anote as informações 
 | Data | Integrante | Ferramenta | Finalidade | Como o resultado foi testado e validado? |
 | :--- | :--- | :--- | :--- | :--- |
 | 14/11 | Equipe | Claude / ChatGPT / Gemini | Geração do esqueleto inicial de restrições em Prolog e tipos em Elm | Revisão manual da sintaxe, compilação no SWI-Prolog e validação com `elm make`. |
+
