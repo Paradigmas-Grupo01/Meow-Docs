@@ -8,7 +8,7 @@ Esta matriz foi elaborada para atender rigorosamente à **Seção 10 do `RELATOR
 
 | Integrante | Função Oficial | Módulos e Arquivos | Issues (Prazo: 18/11 às 22h) | Critério de Pronto (DoD) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Membro 1** | *Engenheiro de Restrições Prolog* | `backend/prolog/meowdoku.pl`<br>`backend/prolog/test_meowdoku.pl` | [#1](https://github.com/Paradigmas-Grupo01/meow-Game/issues/1)<br>[#8](https://github.com/Paradigmas-Grupo01/meow-Game/issues/8) | Modelagem do CSP com CLP(FD), parametrização K=2 e suite `plunit` passando com zero falhas. |
+| **Membro 1** | *Engenheiro de Restrições Prolog* | `backend/prolog/meowdoku.pl`<br>`backend/prolog/test_meowdoku.pl` | [#1](https://github.com/Paradigmas-Grupo01/meow-Game/issues/1) (Concluída)<br>[#8](https://github.com/Paradigmas-Grupo01/meow-Game/issues/8) (Concluída) | Modelagem do CSP com CLP(FD), parametrização K=2 e suite `plunit` com 8 testes passando com zero falhas. |
 | **Membro 2** | *Algoritmo de Dicas e Geração* | `backend/prolog/meowdoku.pl` | [#2](https://github.com/Paradigmas-Grupo01/meow-Game/issues/2)<br>[#9](https://github.com/Paradigmas-Grupo01/meow-Game/issues/9) | Predicado dedutivo `hint/4` com explicação em texto e geração de mapas conexos com unicidade. |
 | **Membro 3** | *Arquiteto de Integração Python* | `backend/app/meowdoku_prolog.py`<br>`backend/app/main.py`<br>`backend/tests/` | [#3](https://github.com/Paradigmas-Grupo01/meow-Game/issues/3)<br>[#10](https://github.com/Paradigmas-Grupo01/meow-Game/issues/10) | Ponte `janus` entre FastAPI e SWI-Prolog, validação Pydantic, rotas Swagger e testes pytest. |
 | **Membro 4** | *Engenheiro de Domínio Elm* | `frontend/src/Meowdoku.elm` | [#4](https://github.com/Paradigmas-Grupo01/meow-Game/issues/4)<br>[#11](https://github.com/Paradigmas-Grupo01/meow-Game/issues/11) | Tipagem pura do modelo (`CellMark`, `Cell`, `Board`), ciclo de marcação, validação instantânea de conflitos e vitória. |
@@ -26,6 +26,7 @@ Esta matriz foi elaborada para atender rigorosamente à **Seção 10 do `RELATOR
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 14/11/2026 | Definição da matriz inicial de responsabilidades para 7 membros | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 | `1.1` | 16/11/2026 | Desdobramento em 2 issues por integrante (total 14 issues) com prazo até 18/11 às 22h | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+| `1.2` | 16/11/2026 | Conclusão e homologação das Issues #1 e #8 (Membro 1) com suíte de testes passando | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 
 <p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
 

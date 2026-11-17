@@ -549,11 +549,11 @@ Leitura: as setas indicam dependência. O solver (US-01) é a fundação de tudo
 
 | ID | Título resumido | Status |
 | :--- | :--- | :--- |
-| US-01 | Solver Prolog | Esqueleto pronto, falta testar com SWI instalado |
-| US-02 | Validação de solução | Esqueleto pronto |
+| US-01 | Solver Prolog | Concluído (CLP/FD recursivo com não-adjacência estrita) |
+| US-02 | Validação de solução | Concluído (valid_solution/3 aprovado) |
 | US-03 | Geração de puzzles | Predicado declarado, implementação pendente |
 | US-04 | Smart Feline Hint | Esqueleto pronto, falta refinar explicações |
-| US-05 | Modo K=2 | Solver parametrizado, falta testar |
+| US-05 | Modo K=2 | Concluído (Double 8x8 validado com K=2) |
 | US-06 | Caixa de Papelão | Planejado |
 | US-07 | GET /example | Rota implementada |
 | US-08 | POST /solve | Rota implementada |
@@ -574,8 +574,8 @@ Leitura: as setas indicam dependência. O solver (US-01) é a fundação de tudo
 | US-23 | Modal de vitória | Pendente |
 | US-24 | Painel de dica | Pendente |
 | US-25 | Seletor de modo | Pendente |
-| US-26 | Testes plunit | Esqueleto pronto, falta rodar |
-| US-27 | Testes pytest | Pendente |
+| US-26 | Testes plunit | Concluído (8/8 testes passando em 0.09s) |
+| US-27 | Testes pytest | Roteiro das rotas Meowdoku implementado e passando |
 | US-28 | validar_entrega.py | Pendente |
 | US-29 | Formatação de código | Pendente |
 | US-30 | RELATORIO.md | Template presente, conteudo pendente |
@@ -591,6 +591,7 @@ Leitura: as setas indicam dependência. O solver (US-01) é a fundação de tudo
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 14/11/2026 | Elaboração inicial do backlog do produto e 31 histórias de usuário | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 | `1.1` | 16/11/2026 | Desdobramento das tarefas em 2 issues por integrante (total 14) com prazo para 18/11 às 22h | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+| `1.2` | 16/11/2026 | Conclusão do motor Prolog CLP(FD), suporte a K=2 e aprovação dos 8 testes plunit | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 
 <p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
 
