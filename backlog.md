@@ -498,17 +498,17 @@ Issue: #7
 
 ---
 
-## Mapeamento: Histórias por Membro e Issue
+## Mapeamento: Histórias por Membro e Issue (Prazo: 18/11/2026 às 22:00)
 
-| Membro | Issue | Histórias |
+| Membro | Issues GitHub | Histórias de Usuário |
 | :--- | :--- | :--- |
-| Membro 1 (Engenheiro de Restrições Prolog) | #1 | US-01, US-02, US-05 |
-| Membro 2 (Algoritmo de Dicas e Geração) | #2 | US-03, US-04, US-05, US-06 |
-| Membro 3 (Arquiteto de Integração Python) | #3 | US-07, US-08, US-09, US-10 |
-| Membro 4 (Engenheiro de Domínio Elm) | #4 | US-11, US-12, US-13, US-14 |
-| Membro 5 (Engenheiro de API e HTTP Elm) | #5 | US-15, US-16, US-17, US-18 |
-| Membro 6 (Designer de UI/UX) | #6 | US-19, US-20, US-21, US-22, US-23, US-24, US-25 |
-| Membro 7 (QA, Validação e Relatório) | #7 | US-26, US-27, US-28, US-29, US-30, US-31 |
+| Membro 1 (Engenheiro de Restrições Prolog) | [#1](https://github.com/Paradigmas-Grupo01/meow-Game/issues/1) (1/2: CSP base)<br>[#8](https://github.com/Paradigmas-Grupo01/meow-Game/issues/8) (2/2: K=2 e plunit) | US-01, US-02, US-05 |
+| Membro 2 (Algoritmo de Dicas e Geração) | [#2](https://github.com/Paradigmas-Grupo01/meow-Game/issues/2) (1/2: Smart Hint)<br>[#9](https://github.com/Paradigmas-Grupo01/meow-Game/issues/9) (2/2: Geração e unicidade) | US-03, US-04, US-05, US-06 |
+| Membro 3 (Arquiteto de Integração Python) | [#3](https://github.com/Paradigmas-Grupo01/meow-Game/issues/3) (1/2: Janus e rotas base)<br>[#10](https://github.com/Paradigmas-Grupo01/meow-Game/issues/10) (2/2: Hints, Pydantic, pytest) | US-07, US-08, US-09, US-10 |
+| Membro 4 (Engenheiro de Domínio Elm) | [#4](https://github.com/Paradigmas-Grupo01/meow-Game/issues/4) (1/2: Tipos imutáveis)<br>[#11](https://github.com/Paradigmas-Grupo01/meow-Game/issues/11) (2/2: Conflitos e vitória) | US-11, US-12, US-13, US-14 |
+| Membro 5 (Engenheiro de API e HTTP Elm) | [#5](https://github.com/Paradigmas-Grupo01/meow-Game/issues/5) (1/2: Decoders JSON)<br>[#12](https://github.com/Paradigmas-Grupo01/meow-Game/issues/12) (2/2: Ciclo TEA Update) | US-15, US-16, US-17, US-18 |
+| Membro 6 (Designer de UI/UX) | [#6](https://github.com/Paradigmas-Grupo01/meow-Game/issues/6) (1/2: CSS Grid e cores)<br>[#13](https://github.com/Paradigmas-Grupo01/meow-Game/issues/13) (2/2: Conflitos, modal, contador) | US-19, US-20, US-21, US-22, US-23, US-24, US-25 |
+| Membro 7 (QA, Validação e Relatório) | [#7](https://github.com/Paradigmas-Grupo01/meow-Game/issues/7) (1/2: Validador formal e lint)<br>[#14](https://github.com/Paradigmas-Grupo01/meow-Game/issues/14) (2/2: 13 seções do RELATORIO) | US-26, US-27, US-28, US-29, US-30, US-31 |
 
 ---
 
@@ -590,6 +590,7 @@ Leitura: as setas indicam dependência. O solver (US-01) é a fundação de tudo
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 14/11/2026 | Elaboração inicial do backlog do produto e 31 histórias de usuário | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+| `1.1` | 16/11/2026 | Desdobramento das tarefas em 2 issues por integrante (total 14) com prazo para 18/11 às 22h | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 
 <p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
 

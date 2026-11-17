@@ -1,6 +1,6 @@
 # Plano de Ação e Cronograma de Execução: Meowdoku
 
-**Meta de Entrega:** Lote 1 (18/11/2026 às 23h59) — Nota integral sem penalidades de prazo.  
+**Meta de Entrega:** Lote 1 (18/11/2026 às 22h00) — Fechamento das issues e ensaio final antes do prazo formal (23h59).  
 **Meta de Escopo:** Categoria *Remix Original* com bônus $\Delta = +0{,}5$ na nota do grupo ($G$).
 
 ---
@@ -46,4 +46,17 @@ flowchart TD
 * [ ] Preencher as Seções 1 a 13 do `RELATORIO.md` de acordo com a contribuição real de cada membro.
 * [ ] Cada integrante preenche sua avaliação individual em `avaliacao-360/<matricula>.md`.
 * [ ] Ensaio cronometrado da apresentação de 15 minutos.
+
+---
+
+## Histórico de Versões
+
+<p className="tabela-titulo">Tabela 1: Histórico de versões</p>
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 14/11/2026 | Elaboração inicial do cronograma de 4 sprints para o Lote 1 | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+| `1.1` | 16/11/2026 | Alinhamento do prazo final de conclusão das issues para 18/11 às 22h | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+
+<p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
 

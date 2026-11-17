@@ -46,6 +46,29 @@ Este documento serve como histórico auditável do alinhamento do grupo. As atas
 
 ---
 
+## Ata 02 - Integração da Equipe e Desdobramento em 14 Issues (16/11/2026)
+- **Horário:** 20:30 às 21:15
+- **Local:** Discord
+- **Presentes:** Gabriel Monteiro, Ana Luiza Fernandes, Tales, Renata Kurzawa, Cayo Alencar, Gabriel MS, Paola Lima
+- **Pauta da Reunião:**
+  1. Recepção dos 6 novos integrantes na organização `Paradigmas-Grupo01`.
+  2. Alinhamento sobre o prazo limite do Lote 1: todas as tarefas devem estar concluídas até **18/11/2026 às 22h00** para validação e ensaio final.
+  3. Desdobramento das 7 tarefas macro em pelo menos 2 issues individuais por integrante no GitHub (total de 14 issues vinculadas ao Milestone 1).
+- **Discussões e Decisões Tomadas:**
+  - Definido que 7 issues eram insuficientes para acompanhar o avanço granular do grupo; cada papel agora possui 2 issues no repositório `meow-Game`.
+  - Fixado o deadline de 18/11 às 22h00 como marco rígido para que o Membro 7 possa rodar o script `validar_entrega.py` e a equipe realizar o ensaio da apresentação de 15 minutos com antecedência.
+  - Criado o Milestone "Lote 1 - Entrega Final (18/11 às 22h)" no GitHub.
+- **Tarefas Atribuídas (2 issues por integrante):**
+  - Membro 1: Issues #1 e #8 (Prolog: restrições CSP, modo K=2 e plunit).
+  - Membro 2: Issues #2 e #9 (Prolog: dicas com explicação dedutiva e geração conexa com solução única).
+  - Membro 3: Issues #3 e #10 (Python: ponte Janus, rotas base, endpoint de dicas e testes pytest).
+  - Membro 4: Issues #4 e #11 (Elm: domínio puro, imutabilidade, validação funcional de conflitos e vitória).
+  - Membro 5: Issues #5 e #12 (Elm: decodificadores/codificadores JSON, ciclo TEA update e requisições HTTP).
+  - Membro 6: Issues #6 e #13 (Elm/CSS: grid com cores por território, destaque de conflito, contador e modal de vitória).
+  - Membro 7: Issues #7 e #14 (QA: execução de validar_entrega.py, preenchimento das 13 seções do RELATORIO.md e atas).
+
+---
+
 ## Histórico de Versões
 
 <p className="tabela-titulo">Tabela 4: Histórico de versões</p>
@@ -54,6 +77,7 @@ Este documento serve como histórico auditável do alinhamento do grupo. As atas
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 04/11/2026 | Registro da ata do Ponto de Controle 1 e acompanhamento das correções pedidas pela professora | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 | `1.1` | 14/11/2026 | Registro da Ata 01 (Alinhamento Inicial e Definição do Escopo) | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
+| `1.2` | 16/11/2026 | Registro da Ata 02 (Integração da equipe, 14 issues e deadline para 18/11 às 22h) | [Gabriel Monteiro](https://github.com/GabrielSMonteiro) | |
 
 <p className="tabela-fonte">Fonte: [Gabriel Monteiro](https://github.com/GabrielSMonteiro), 2026.</p>
 
